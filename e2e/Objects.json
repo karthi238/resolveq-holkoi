@@ -1,0 +1,21 @@
+{
+    "successCredentials": {
+        "username": "nischal@gmail.com",
+        "password": "nischal"
+    },
+    "questions": {
+        "askQuestionForUser": " The financial decision of which medical procedure or medication gives the most benefit for the money spent should be made by the patient under the doctor’s guidance.",
+        "askQuestion": "An EDI partner that I am working with has asked me to use a specific EDI solution, do I need to use exactly this method to send documents?",
+        "editQuestion": "Facts about the Physician Payments Sunshine Act or the Sunshine Act"
+    },
+    "answer": "The Physician Payments Sunshine Act is designed to increase transparency around the financial relationships between physicians, teaching hospitals and manufacturers of drugs, medical devices and biologics. \n",
+    "addCommentForQuestion": "Data collection will begin on August 1, 2013 for applicable manufacturers and applicable GPOs sufficient time to prepare. \n",
+    "addCommentForAnswer": "Applicable manufacturers should be able to demonstrate that they made a good faith effort to obtain an NPI for the physician.”  A good faith effort includes, but is not limited to, specifically requesting an NPI from the physician, checking the NPPES database, and calling the NPPES help desk.\n",
+    "editAnswer": "The collection of payment data to physicians under the new Physician Payments Sunshine Act (PPSA) started August 1, 2013.",
+    "blogs": {
+        "title": "Machine Learning Mystery",
+        "subtitle": "How to Perform Object Detection With YOLOv3 in Keras",
+        "image": "https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "content": "Object detection is a task in computer vision that involves identifying the presence, location, and type of one or more objects in a given photograph.It is a challenging problem that involves building upon methods for object recognition (e.g. where are they), object localization (e.g. what are their extent), and object classification (e.g. what are they).In recent years, deep learning techniques are achieving state-of-the-art results for object detection, such as on standard benchmark datasets and in computer vision competitions. Notable is the “You Only Look Once,” or YOLO, family of Convolutional Neural Networks that achieve near state-of-the-art results with a single end-to-end model that can perform object detection in real-time.\nIn this tutorial, you will discover how to develop a YOLOv3 model for object detection on new photographs.\nAfter completing this tutorial, you will know: YOLO-based Convolutional Neural Network family of models for object detection and the most recent variation called YOLOv3.The best-of-breed open source library implementation of the YOLOv3 for the Keras deep learning library.How to use a pre-trained YOLOv3 to perform object localization and detection on new photographs."
+    }
+}
