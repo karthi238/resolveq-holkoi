@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+set -e
+environment=$1
+if [ $environment != prod ] && [ $environment != dev ] ;
+then
+  echo "Need to specify either prod or dev"
+  exit 1
+fi
+echo "Building Project for $environment..."
+ng build --aot --configuration=$environment
+echo "Uploading to S3..."
+export AWS_PROFILE=resolveq
+echo "AWS Profile used is $AWS_PROFILE"
+gulp upload --$environment
